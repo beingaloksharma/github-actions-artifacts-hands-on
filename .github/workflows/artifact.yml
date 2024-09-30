@@ -30,3 +30,5 @@ jobs:
          path: ./artifacts/
       - name: Display the content of hello text
         run: cat ./artifacts/hello.txt
+      - name: Display structure of downloaded files
+        run: ls -R
